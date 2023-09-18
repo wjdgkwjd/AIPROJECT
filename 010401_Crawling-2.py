@@ -8,7 +8,7 @@ from urllib.request import urlopen
 html = urlopen('http://jeju-s.jje.hs.kr/jeju-s/0203/board/18525/6475033')
 
 soup = BeautifulSoup(html, 'html.parser')
-items= soup.select('.fieldBox > dl > dd a')
+items= soup.select('.fieldBox > dl > dd a')#id는 >
 
 print( "="*100)
 print( items)

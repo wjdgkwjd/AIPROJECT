@@ -4,7 +4,7 @@ image_url = "http://jeju-s.jje.hs.kr/upload/sysImg/jeju-s/SysImg_201706270515413
 
 response = requests.get(image_url)
 
-with open("downloaded_image.png", "wb") as f:
+with open("downloaded_image.png", "wb") as f:#wb 이진으로 쓰기
        f.write(response.content)
 
 # 파일명  

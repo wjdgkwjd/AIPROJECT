@@ -7,7 +7,7 @@ html = urlopen('https://weather.naver.com/today/14110120?cpName=KMA')
 
 soup = BeautifulSoup(html, 'html.parser')
 
-list = soup.select('.summary')
+list = soup.select('.summary')#클래스 앞에 .
 
 
 print("="*100)

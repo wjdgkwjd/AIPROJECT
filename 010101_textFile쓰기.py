@@ -1,6 +1,6 @@
 text="1.안녕하세요\n"
-with open('data/text1.txt', 'w', encoding='utf-8') as f:
-  f.write( "1.안녕하세요.\n" )
+with open('data/text1.txt', 'w', encoding='utf-8') as f:#w->쓰기
+  f.write( "1.안녕하세요.\n" )#줄바꿈을 해서 관리 편하게
   f.write( "2.안녕하세요.\n" )
 
 
